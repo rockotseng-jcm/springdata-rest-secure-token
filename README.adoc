@@ -1,0 +1,11 @@
+= Example of Spring Data REST with Token Authentication
+
+== Introduction
+
+This project is a simple REST application with a customer domain and secured by token authentication. Which is implemented by Spring Boot, Spring Data Rest, Spring Security, and Lombok.
+
+== What you need & How to run it
+
+You will need Redis install and run on your machine for storing the session.
+
+Invoke login API with HTTP Basic authentication to get an access token, and place token in the header when requesting customer APIs.
