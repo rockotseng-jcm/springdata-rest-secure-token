@@ -4,4 +4,4 @@ security:
     password: user
 logging:
   level: 
-    root: debug
+    root: info
